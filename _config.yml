@@ -1,0 +1,61 @@
+# Academic Pages configuration. See README.md for local preview and editing.
+locale: en-US
+site_theme: default
+title: "Adwait Datar"
+title_separator: "|"
+name: "Adwait Datar"
+description: "Information geometry, optimization, and control theory. Postdoctoral researcher at TU Hamburg."
+url: "https://addat10.github.io"
+baseurl: "/adwaitdatar.github.io"
+repository: "addat10/adwaitdatar.github.io"
+author:
+  avatar: "portrait.jpg"
+  name: "Adwait Datar"
+  bio: "Postdoctoral researcher"
+  location: "Hamburg, Germany"
+  employer: "TU Hamburg"
+  email: "adwait.datar@tuhh.de"
+  googlescholar: "https://scholar.google.com/citations?user=IUcHHp8AAAAJ"
+  orcid: "https://orcid.org/0000-0002-4085-9675"
+  linkedin: "adwait-datar-91a53538"
+include: ["_pages"]
+exclude:
+  - .preview
+  - .preview-tools
+  - .bundle
+  - .github
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - scripts
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+sass:
+  sass_dir: _sass
+  style: compressed
+timezone: Europe/Berlin
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+atom_feed:
+  hide: true
+analytics:
+  provider: false
+comments:
+  provider: false
+og_image: portrait.jpg
