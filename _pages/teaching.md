@@ -8,8 +8,22 @@ page_class: compact-page
 
 - **Mathematics for Machine Learning** — currently conducting tutorials and organizing the course.
 - **Information Geometry** — tutorials and course organization; summer 2026, 2025.
-- **Machine Learning II: Lectures and Theoretical Tutorials** — winter 2025–26. I delivered the lectures and theoretical tutorials, using a syllabus and materials developed jointly with Nihat Ay and Manfred Eppe in previous semesters.
+- **Machine Learning II: Lectures and Theoretical Tutorials** — winter 2025–26. I delivered the lectures and theoretical tutorials, using a syllabus and materials developed jointly with Nihat Ay and Manfred Eppe in previous semesters. Course recording links will be added once TUHH confirms that public sharing is permitted.
 
+
+
+- **Machine Learning I** — tutorials and course organization; summer 2025, 2024, 2023.
+- **Machine Learning II** — tutorials and course organization; winter 2024–25, 2023–24.
+- **Optimal and Robust Control** — tutorials and course organization; summer 2023, 2022, 2021, 2020, 2019, 2018. [Tutorial recordings](https://www.youtube.com/playlist?list=PLZQ42IwP4a1bKZvenDWgNkaJNj8YGXyfb).
+- **System Identification** — tutorials and course organization; summer 2022, 2019, 2018.
+- **Control Systems Theory and Design** — tutorials and course organization; winter 2018–19.
+
+## Industry Tutorials
+
+- **Tutorial on Integral Quadratic Constraints** — IAV Automotive Engineering, as part of a joint in-house seminar in Gifhorn, 18–20 June 2018.
+
+{% comment %}
+Machine Learning II recording links: restore after TUHH confirms public-sharing permission.
     <details id="ml2-recordings" markdown="1">
     <summary>Course Recordings (Winter 2025–26)</summary>
 
@@ -29,13 +43,4 @@ page_class: compact-page
     - [Lecture 13 — 22 January 2026](https://webcast.tuhh.de/Mediasite/Play/04500dfecb8a4d769a8230ac449426661d)
 
     </details>
-
-- **Machine Learning I** — tutorials and course organization; summer 2025, 2024, 2023.
-- **Machine Learning II** — tutorials and course organization; winter 2024–25, 2023–24.
-- **Optimal and Robust Control** — tutorials and course organization; summer 2023, 2022, 2021, 2020, 2019, 2018. [Tutorial recordings](https://www.youtube.com/playlist?list=PLZQ42IwP4a1bKZvenDWgNkaJNj8YGXyfb).
-- **System Identification** — tutorials and course organization; summer 2022, 2019, 2018.
-- **Control Systems Theory and Design** — tutorials and course organization; winter 2018–19.
-
-## Industry Tutorials
-
-- **Tutorial on Integral Quadratic Constraints** — IAV Automotive Engineering, as part of a joint in-house seminar in Gifhorn, 18–20 June 2018.
+{% endcomment %}

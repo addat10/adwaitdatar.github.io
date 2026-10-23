@@ -85,7 +85,7 @@ The ICML 2026 proceedings record was verified at https://proceedings.mlr.press/v
 
 ## Review follow-ups
 
-The review report and decision tracker are stored locally under `.preview/reviews/`, which is ignored by Git and excluded from the website. At the owner’s request, Machine Learning II Mediasite links are now included in a collapsible list on Teaching while the owner checks sharing permission. No video files have been uploaded or access permissions changed. The existing Optimal and Robust Control YouTube link is labelled Tutorial recordings. The Crazyflie description distinguishes Adwait's contributions from those of students and collaborators; the CMG entries are citations only, as requested by the owner.
+The review report and decision tracker are stored locally under `.preview/reviews/`, which is ignored by Git and excluded from the website. For the external-feedback version, Machine Learning II Mediasite links are preserved inside a Liquid comment in `_pages/teaching.md` and omitted entirely from the generated website. A placeholder states that links will be added once TUHH confirms permission. Restore the collapsible list below its course entry only after confirmation. No video files have been uploaded or access permissions changed. The existing Optimal and Robust Control YouTube link is labelled Tutorial recordings. The Crazyflie description distinguishes Adwait's contributions from those of students and collaborators; the CMG entries are citations only, as requested by the owner.
 
 Semester labels use full years: winter 2023–24 corresponds to WiSe23; Optimal and Robust Control is listed in summer semesters. Publications uses `hide_title: true` so its introductory Scholar sentence can precede the in-content “Selected Publications” heading without a duplicate automatic title. Section headings use Title Case; paper and project titles retain their supplied wording.
 
@@ -93,7 +93,7 @@ Semester labels use full years: winter 2023–24 corresponds to WiSe23; Optimal 
 
 1. Open the repository folder in VS Code (or another text editor).
 2. Open the relevant `_pages/*.md` file from the table above. Edit the text below the closing `---`; preserve the front matter at the top.
-3. Use `## Heading` for a section, `- Item` for a list, `**bold**` for emphasis, and `[label](https://example.org)` for an external link. Copy the existing `relative_url` pattern for links within the site. The Machine Learning II recording list is inside a `<details>` block in `_pages/teaching.md`.
+3. Use `## Heading` for a section, `- Item` for a list, `**bold**` for emphasis, and `[label](https://example.org)` for an external link. Copy the existing `relative_url` pattern for links within the site. The Machine Learning II recording list is preserved in a Liquid comment at the end of `_pages/teaching.md` until public-sharing permission is confirmed.
 4. Save, then run `wsl -d Ubuntu -- bash scripts/preview.sh` from PowerShell in this folder. Open http://127.0.0.1:4000/ and check the changed page. If port 4000 is already serving a static preview, stop that server first; saving alone does not rebuild a static preview.
 5. Review the diff with your Git client, then commit when satisfied. A commit saves the changes locally. Pushing sends them to GitHub and may publish them depending on GitHub Pages settings; see Build and publish above.
 
