@@ -59,11 +59,11 @@ The production configuration matches the existing remote:
 
 If the repository is renamed to `addat10.github.io`, set `baseurl: ""`. Do not invent a canonical address before the intended repository name is decided.
 
-Run `bundle exec jekyll build --strict_front_matter` for a production build. GitHub Pages publication is prepared in `.github/workflows/pages.yml`, using Ruby 3.3. This workflow is **manual only**: in repository Settings → Pages, select GitHub Actions; then run the workflow when ready. The remote Pages setting has not been verified. If it is configured to deploy from a branch, pushing to that branch can publish automatically regardless of the manual workflow. Nothing has been pushed or published as part of this work.
+Run `bundle exec jekyll build --strict_front_matter` for a production build. GitHub Pages publication is prepared in `.github/workflows/pages.yml`, using Ruby 3.3. This workflow is **manual only**. GitHub Pages is configured to use GitHub Actions: push the reviewed commits, then run the workflow when ready. Pushing alone does not start this workflow. Keep Settings → Pages set to GitHub Actions if manual publication is desired.
 
 ## Checkpoint and rollback
 
-The complete plain HTML/CSS website is preserved in commit **356bc49**, created immediately before migration. The Academic Pages migration and initial reviewed content were committed as **e9f13a9**. Subsequent review refinements are local changes until committed separately. The old page can be inspected with `git show 356bc49:index.html`; restore that version only after saving any subsequent work you want to retain.
+The complete plain HTML/CSS website is preserved in commit **356bc49**, created immediately before migration. The Academic Pages migration and initial reviewed content were committed as **e9f13a9**. Subsequent review refinements are preserved in later commits. The old page can be inspected with `git show 356bc49:index.html`; restore that version only after saving any subsequent work you want to retain.
 
 ## Content notes
 
@@ -98,3 +98,5 @@ Semester labels use full years: winter 2023–24 corresponds to WiSe23; Optimal 
 5. Review the diff with your Git client, then commit when satisfied. A commit saves the changes locally. Pushing sends them to GitHub and may publish them depending on GitHub Pages settings; see Build and publish above.
 
 Edit `_data/navigation.yml` to change the menu, `_config.yml` for sidebar/profile settings, and `_sass/_custom.scss` for custom styling. Replace `cv.pdf` with a new PDF using the same filename. Do not edit generated `_site` files: Jekyll overwrites them on the next build.
+
+The root `/vendor/` directory contains ignored Ruby dependencies. The template source files under `_sass/vendor/` must remain tracked; do not broaden the ignore rule to match every directory named `vendor`.
