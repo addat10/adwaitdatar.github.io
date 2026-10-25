@@ -9,7 +9,7 @@ I am a postdoctoral researcher at the [Institute for Data Science Foundations](h
 
 In a parallel project, I am investigating how policy architectures affect the performance and robustness of embodied agents whose policies are learned through reinforcement learning. I draw on tools from control theory, with the longer-term goal of applying these ideas to robotic systems.
 
-I completed my [PhD](https://tore.tuhh.de/dspace-cris-server/api/core/bitstreams/ae4fee92-4169-4886-be74-645ca84df124/content) at TU Hamburg under the supervision of Herbert Werner. I studied distributed control of multi-vehicle systems, using integral quadratic constraints to analyze robust stability and performance, and investigating cooperative source-seeking algorithms through experiments with groups of quadrotors. My research involved moving between mathematical analysis, simulation, and experiments.
+I completed my [PhD](https://tore.tuhh.de/dspace-cris-server/api/core/bitstreams/ae4fee92-4169-4886-be74-645ca84df124/content) at the [Institute of Control Systems](https://www.tuhh.de/ics/homepage) at TU Hamburg under the supervision of Herbert Werner. I studied distributed control of multi-vehicle systems, using integral quadratic constraints to analyze robust stability and performance, and investigating cooperative source-seeking algorithms through experiments with groups of quadrotors. My research involved moving between mathematical analysis, simulation, and experiments.
 
 ## Research Interests
 

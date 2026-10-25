@@ -34,7 +34,7 @@ The complete publication list is available on [Google Scholar](https://scholar.g
   **Adwait Datar**; Nihat Ay  
   *Transactions on Machine Learning Research, July 2025*
 
-## Architectures for Dynamical Systems
+## Architectures for Dynamical Systems and Agents
 
 - **[Systematic construction of continuous-time neural networks for linear dynamical systems](https://hdl.handle.net/11420/56917)**  
   Chinmay Datar; **Adwait Datar**; Felix Dietrich; Wil Schilders  
